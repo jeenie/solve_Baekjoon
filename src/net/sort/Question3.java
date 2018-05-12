@@ -1,19 +1,27 @@
 package net.sort;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 
 public class Question3 {
 
+	int[] numvers;
+	int[] count;
+	int max;
+	int index;
+	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	static void inputNumbers() throws IOException {
+		BufferedReader br = new BufferedeReader(new InputStreamWriter(System.in));
+	}
+	
 	public static void countingSort(int[] a) {
 		int[] temp = new int[a.length];
 		
 	}
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		int n = input.nextInt();
-		int[] a = new int[n];
 		
-		for(int i = 0; i < a.length; i++) 
-			a[i] = input.nextInt();
+		
 	}
 }
