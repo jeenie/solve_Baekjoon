@@ -4,7 +4,7 @@
 
 ## 단계별로 풀어보기
 ### 9. 정렬해보기
-#### 2751. 수 정렬하기2
+#### 2751. 수 정렬하기2 (병합정렬)
 ```java
 import java.util.Scanner;
 
@@ -57,4 +57,27 @@ public class Question2 {
 	}
 
 }
+```
+
+#### 2751. 수 정렬하기2 (병합정렬)
+```java
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Question5 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		String s = input.nextLine();
+		int size = s.length();
+		char[] a = new char[size];
+		
+		for(int i = 0; i < a.length; i++)
+			a[i] = s.charAt(i);
+
+		Arrays.sort(a);
+		for(int i = a.length - 1 ; i >= 0 ; i--)
+			System.out.print(a[i]);
+	}
+}
+
 ```
