@@ -31,7 +31,7 @@ class Stack {
 	}
 }
 
-public class Question1 {
+public class Baekjoon_10828 {
 	
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);

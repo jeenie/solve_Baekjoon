@@ -3,7 +3,7 @@ package net.output;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Question7 {
+public class Baekjoon_11718 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
