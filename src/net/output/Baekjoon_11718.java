@@ -10,6 +10,7 @@ public class Baekjoon_11718 {
 		ArrayList<String> a = new ArrayList<String>();
 		
 		while(input.hasNextLine()) {
+			
 			String s = input.nextLine();
 			if (s == null || s.isEmpty())
 				break;
